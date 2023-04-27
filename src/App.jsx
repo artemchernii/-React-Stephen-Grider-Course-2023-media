@@ -1,7 +1,13 @@
 import './App.css';
-
+import Button from './components/Button';
+import Panel from './components/Panel';
 function App() {
-    return <div>123</div>;
+    return (
+        <div>
+            <Panel>Panel</Panel>
+            <Button>Start</Button>
+        </div>
+    );
 }
 
 export default App;
