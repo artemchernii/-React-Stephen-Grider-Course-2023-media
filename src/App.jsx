@@ -1,11 +1,9 @@
 import './App.css';
-import Button from './components/Button';
-import Panel from './components/Panel';
+import UsersList from './components/UsersList';
 function App() {
     return (
-        <div>
-            <Panel>Panel</Panel>
-            <Button>Start</Button>
+        <div className="container mx-auto">
+            <UsersList />
         </div>
     );
 }
