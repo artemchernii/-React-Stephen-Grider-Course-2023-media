@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import classnames from 'classnames';
-// import PropType from 'prop-types';
+import { GoSync } from 'react-icons/go';
 function Button({
+    loading,
     children,
     primary,
     secondary,
@@ -14,8 +15,10 @@ function Button({
 }) {
     const classes = classnames(
         rest.className,
+        'h-8',
         'flex items-center px-3 py-1.5 border',
         {
+            'opacity-80': loading,
             'border-blue-500 bg-blue-500 text-white': primary,
             'border-gray-900 bg-gray-900 text-white': secondary,
             'border-green-500 bg-green-500 text-white': success,
@@ -31,8 +34,8 @@ function Button({
         }
     );
     return (
-        <button {...rest} className={classes}>
-            {children}
+        <button disabled={loading} {...rest} className={classes}>
+            {loading ? <GoSync className="animate-spin" /> : children}
         </button>
     );
 }
