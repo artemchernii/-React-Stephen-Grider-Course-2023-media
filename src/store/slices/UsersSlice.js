@@ -37,9 +37,6 @@ const usersSlice = createSlice({
         });
         builder.addCase(deleteUser.fulfilled, (state, action) => {
             state.isLoading = false;
-            // TODO fix the problem
-            console.log('action is => ', action);
-            console.log('action meta is => ', action.meta);
             const updated = state.data.filter(
                 (user) => action.payload.id !== user.id
             );
