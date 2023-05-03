@@ -8,7 +8,7 @@
         "build": "vite build",
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
-        "start:server": "json-server --watch db.json --port 3005"
+        "start:server": "json-server --watch db.json --port 3009"
     },
     "dependencies": {
         "@faker-js/faker": "^7.6.0",

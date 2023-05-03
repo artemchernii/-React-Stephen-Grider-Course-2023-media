@@ -341,11 +341,6 @@
       "id": 5
     },
     {
-      "albumId": 76,
-      "imageUrl": "https://loremflickr.com/150/150/abstract?lock=13748",
-      "id": 6
-    },
-    {
       "albumId": 72,
       "imageUrl": "https://loremflickr.com/150/150/abstract?lock=90479",
       "id": 7
@@ -359,6 +354,28 @@
       "albumId": 72,
       "imageUrl": "https://loremflickr.com/150/150/abstract?lock=41582",
       "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "title": "New Title",
+      "body": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+      "id": 2
+    },
+    {
+      "title": "qweqewq",
+      "body": "eqeqwqweweq",
+      "id": 5
+    },
+    {
+      "title": "new title",
+      "body": "new content",
+      "id": 6
     }
   ]
 }
